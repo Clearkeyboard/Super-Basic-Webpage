@@ -1,0 +1,74 @@
+body {
+  font-family: Helvetica;
+  padding: 2em;
+  background-color: darkslategrey;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    color:whitesmoke
+}
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: black;
+}
+
+.skillset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill-html,
+.skill-jquery,
+.skill-js {
+  background-color: #52B362;
+}
+
+.skill-html,
+.skill-js,
+.skill-jquery {
+  width: 100%;
+  padding: 2em 3em 4em 2em;
+  margin: 0.5em;
+  color: whitesmoke;
+  text-align: center;
+  
+}
+
+.projects-button {   
+  margin: 0 auto;
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+  
+}
+
+.projects-button-off {
+  margin: 0 auto;
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+  
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
